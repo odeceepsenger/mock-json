@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="nodejsBaas">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1441533304517</CreatedAt>
+    <CreatedBy>yesveesteps@gmail.com</CreatedBy>
+    <Description>node.js program to access back end service and response embedded in the program</Description>
+    <DisplayName>nodejsBaas</DisplayName>
+    <LastModifiedAt>1441674370367</LastModifiedAt>
+    <LastModifiedBy>yesveesteps@gmail.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://package.json</Resource>
+        <Resource>node://server-usergrid.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
